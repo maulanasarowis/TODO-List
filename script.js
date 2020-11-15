@@ -90,12 +90,11 @@ function syncLocalStorage(activity, item, status = false) {
 // 1. menambahkan
 // 2. coret kalau sudah selesai
 // 3. menghapus
-
-function add() {
+async function add() {
   // 1. ambil nilai dari teksnya
   let teksBaru = document.getElementById(`teks-baru`);
   // 2. tambahkan list baru ke ul
-  createList(teksBaru.value);
+  await createList(teksBaru.value);
   syncLocalStorage("ADD", teksBaru.value);
   //3. kosongkan fieldnya
   teksBaru.value = "";
