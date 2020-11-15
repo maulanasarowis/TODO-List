@@ -105,8 +105,8 @@ function createList(text, status = false) {
 
   let newTodo = `<div class='card'>
                   <div class='card-body'>
-                    <span class='${isDone}' onclick='toggle(this)'>${text}<img class='rounded float-right kursor' src='/icon/check.png'></span>
-                    <img class='rounded float-right kursor' src='/icon/delete.png' onclick='removeItem(this)'>
+                    <span class='${isDone}' onclick='toggle(this)'>${text}<img class='rounded float-right kursor' src='TODO-List/icon/check.png'></span>
+                    <img class='rounded float-right kursor' src='TODO-List/icon/delete.png' onclick='removeItem(this)'>
                   </div>
                 </div>`;
 
