@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 8vh;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+}
+.kursor {
+  cursor: pointer;
+}
+
+.jumbotron {
+  background-color: black;
+}
+.jumbotron h2 {
+  font-weight: bold;
+  color: white;
+}
+
+#date {
+  color: silver;
+}
+#time {
+  color: silver;
+}
