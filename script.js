@@ -103,12 +103,17 @@ async function add() {
 function createList(text, status = false) {
   let isDone = status ? "done" : "";
 
-  let newTodo = `<div class='card'>
-                    <div class='card-body'>
-                      <span class='${isDone}' onclick='toggle(this)'>${text}<img class='rounded float-right kursor' src='icon/check.png'></span>
-                      <img class='rounded float-right kursor' src='icon/delete.png' onclick='removeItem(this)'>
-                    </div>
-                  </div>`;
+  // let newTodo = `<div class='card'>
+  //                   <div class='card-body'>
+  //                     <span class='${isDone}' onclick='toggle(this)'>${text}<img class='rounded float-right kursor' src='icon/check.png'></span>
+  //                     <img class='rounded float-right kursor' src='icon/delete.png' onclick='removeItem(this)'>
+  //                   </div>
+  //                 </div>`;
+
+  let newTodo = `<ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-secondary"><span class='${isDone}' onclick='toggle(this)'>${text}<img class='rounded float-right kursor' src='icon/check.png'></span>
+                    <img class='rounded float-right kursor' src='icon/delete.png' onclick='removeItem(this)'></li>
+                  </ul>`;
 
   //
 

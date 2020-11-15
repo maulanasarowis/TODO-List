@@ -6,6 +6,7 @@
 
 .done {
   text-decoration: line-through;
+  opacity: 0.4;
 }
 /* 
 footer {
@@ -31,6 +32,11 @@ footer {
 .jumbotron h2 {
   font-weight: bold;
   color: white;
+}
+.jumbotron .create {
+  font-style: italic;
+  margin-top: -10px;
+  font-family: sans-serif;
 }
 
 #date {
