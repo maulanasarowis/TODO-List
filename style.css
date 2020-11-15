@@ -7,8 +7,9 @@
 .done {
   text-decoration: line-through;
 }
-
+/* 
 footer {
+  margin-top: 50px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -19,7 +20,7 @@ footer {
   align-items: center;
   justify-content: center;
   font-size: medium;
-}
+} */
 .kursor {
   cursor: pointer;
 }
@@ -38,3 +39,7 @@ footer {
 #time {
   color: silver;
 }
+
+/* .card {
+  margin-bottom: 40px;
+} */

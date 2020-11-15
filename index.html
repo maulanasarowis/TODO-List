@@ -30,24 +30,15 @@
     <!-- akhir Jumbotron -->
 
     <!-- form input -->
-    <div class="container">
-        <div class="input-group mb-3">
-            <input id="teks-baru" type="text" class="form-control" placeholder="Apa yang harus dikerjakan?">
+    <div class="input-group mb-3">
+        <input id="teks-baru" type="text" class="form-control" placeholder="Apa yang harus dikerjakan?" required>
+        <button class="btn btn-info" type="button" onclick="add()">Tambah</button>
 
-            <button class="btn btn-info" type="button" onclick="add()">Tambah</button>
-
-        </div>
-        <div id="todo">
-
-
-        </div>
+    </div>
+    <div id="todo">
     </div>
     <!-- akhir form input -->
 
-    <!-- footer -->
-    <footer>
-        Developed By Maulana Sarowis - 2020.
-    </footer>
     <!-- akhir footer -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -58,8 +49,6 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
 </body>
-
-
 
 <script src="script.js"></script>
 
