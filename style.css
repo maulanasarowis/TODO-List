@@ -28,6 +28,7 @@ footer {
 
 .jumbotron {
   background-color: black;
+  height: 175px;
 }
 .jumbotron h2 {
   font-weight: bold;
@@ -36,14 +37,15 @@ footer {
 .jumbotron .create {
   font-style: italic;
   margin-top: -10px;
-  font-family: sans-serif;
 }
 
 #date {
   color: silver;
+  font-weight: bold;
 }
 #time {
   color: silver;
+  font-weight: bold;
 }
 
 /* .card {
