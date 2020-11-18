@@ -8,20 +8,7 @@
   text-decoration: line-through;
   opacity: 0.4;
 }
-/* 
-footer {
-  margin-top: 50px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 8vh;
-  background: black;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: medium;
-} */
+
 .kursor {
   cursor: pointer;
 }
@@ -40,13 +27,7 @@ footer {
 
 #date {
   color: silver;
-  font-weight: bold;
 }
 #time {
   color: silver;
-  font-weight: bold;
 }
-
-/* .card {
-  margin-bottom: 40px;
-} */
