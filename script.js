@@ -42,8 +42,8 @@ function clock() {
   var sec = d.getSeconds();
 
   document.getElementById("date").innerHTML =
-    day + " " + date + " " + month + " " + year;
-  document.getElementById("time").innerHTML = hour + ":" + min + ":" + sec;
+    day + ", " + date + " " + month + " " + year;
+  document.getElementById("time").innerHTML = hour + ":" + min;
 }
 // tutup Tanggal dan Waktu
 

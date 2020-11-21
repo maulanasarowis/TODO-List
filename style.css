@@ -1,3 +1,6 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -28,6 +31,7 @@
 .jumbotron h2 {
   font-weight: bold;
   color: white;
+  font-size: 25px;
 }
 .jumbotron .create {
   font-style: italic;
@@ -36,7 +40,13 @@
 
 #date {
   color: silver;
+  font-family: "Texturina", serif;
+  font-weight: 600;
+  font-size: 11px;
 }
 #time {
   color: silver;
+  font-family: "Texturina", serif;
+  font-weight: 600;
+  font-size: 11px;
 }
