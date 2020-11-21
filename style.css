@@ -9,6 +9,15 @@
   opacity: 0.4;
 }
 
+.logo span {
+  color: #008cba;
+}
+
+.btn {
+  color: white;
+  background-color: #008cba;
+}
+
 .kursor {
   cursor: pointer;
 }
